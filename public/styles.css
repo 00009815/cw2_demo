@@ -1,0 +1,62 @@
+:root {
+    font-size: 18px;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  a:hover{
+      text-decoration: underline;
+  }
+  a{
+    text-decoration: none;
+  }
+
+  /*header & navigation*/
+  header{
+      display: flex;
+      justify-content: space-between;
+      max-width: 90vw;
+      margin: 2vh auto;
+      align-items: baseline;
+      border-bottom: 1px solid black;
+  }
+
+  header a{
+    color: #800020;
+  }
+
+  .logo{
+      font-size: 2rem;
+      margin-left: 10px;
+  }
+
+  nav ul{
+      display: flex;
+  }
+
+  .nav-link{
+      list-style-type: none;
+      margin: auto 10px;
+  }
+
+  /*home-main*/
+
+  .main{
+      max-width: 90vw;
+      margin: 200px auto;
+      padding-right: 40vw;
+  }
+
+  .main p{
+      font-size: 3rem;
+      margin-bottom: 3vh;
+  }
+
+  .create_note_btn{
+      font-size: 1.3rem;
+      background-color: #800020;
+      color: white;
+      padding: 20px;
+  }
